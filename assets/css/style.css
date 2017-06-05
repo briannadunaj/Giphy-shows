@@ -1,0 +1,27 @@
+#shows-view {
+	width: 80%;
+	float: left;
+}
+
+#shows-view .item {
+	float: left;
+	margin: 5px;
+}
+
+#show-form {
+	float: left;
+	width: 20%;
+	font-family: "Helvetica";
+}
+
+.topic, #add-show {
+	background-color: #CACBE6;
+	color: #68696E;
+	margin: 2px;
+	border-radius: 50px;
+}
+
+p {
+	font-family: "Helvetica";
+	font-size: 10pt;
+}
