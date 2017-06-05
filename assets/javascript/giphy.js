@@ -44,7 +44,7 @@ function displayShows() {
 
 		var show = $(this).attr("data-name");
 
-		var queryURL = "http://api.giphy.com/v1/gifs/search?q=" 
+		var queryURL = "https://api.giphy.com/v1/gifs/search?q=" 
 		+ show + "&api_key=" + authKey + "&limit=10";
 
 	    // AJAX GET request
