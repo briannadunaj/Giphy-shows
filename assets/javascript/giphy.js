@@ -1,5 +1,6 @@
 $(document).ready(function(){
 
+var authKey = "dc6zaTOxFJmzC";
 var animate = 0;
 var topics = ["Arrested Development", "Portlandia", "The Office", "Key and Peele", "Comedy Bang! Bang!", "Parks and Recreation", "Summer Heights High", "It's Always Sunny in Philadelphia", "Bob's Burgers", "Broad City", "Rick and Morty", "Tim and Eric Awesome Show, Great Job!"];
 
@@ -44,7 +45,7 @@ function displayShows() {
 		var show = $(this).attr("data-name");
 
 		var queryURL = "http://api.giphy.com/v1/gifs/search?q=" 
-		+ show + "&api_key=dc6zaTOxFJmzC&limit=10";
+		+ show + "&api_key=" + authKey + "&limit=10";
 
 	    // AJAX GET request
 	    $.ajax({
